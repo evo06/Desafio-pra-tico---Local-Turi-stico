@@ -51,8 +51,28 @@ p{
 .divider {
   width: 100%;
   height: 1px;
-  margin: 36px 0;
+  margin: 40px 0 64px;
   background-color: #d9d9d9;
+}
+#titlelist h1{
+  font-size: 36px;
+  color: #1B1B1B;
+  margin: 2px 0px 8px 0px;
+}
+#titlelist p{
+  margin-bottom:64px ;
+}
+#destinos img{
+  margin-bottom: 20px;
+}
+
+#destinos h1{
+  font-size: 36px;
+  color: #1B1B1B;
+  margin-bottom: 4px;
+}
+#destinos ul{
+  margin-bottom: 48px;
 }
 
 h1{
@@ -84,6 +104,7 @@ li{
   font-size: 16px;
   font-weight: bold;
   color: #0C51A7;
+  margin-left: 20px;
 }
 ul li::marker{
   color: #333333;
