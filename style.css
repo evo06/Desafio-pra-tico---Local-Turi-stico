@@ -31,9 +31,12 @@ section h2{
   color: #E1624F;
   margin: 8px;
   text-transform: uppercase;
+  text-transform: capitalize; /* Primeira letra de cada palavra em maiúscula */
 }
+
 section h1{
   margin: 0px;
+  text-transform: capitalize; /* Primeira letra de cada palavra em maiúscula */
 }
 img {
   border-radius: 28px;  /* Adicionar o arredondamento da borda */
@@ -77,6 +80,7 @@ p{
 }
 #destinos ul{
   margin-bottom: 48px;
+  text-transform: capitalize; /* Primeira letra de cada palavra em maiúscula */
 }
 .red {
   color: #E1624F;
@@ -107,7 +111,9 @@ p{
   text-align: center;
   color: #333333;
   margin-top: 0px;
+  text-transform: capitalize; /* Primeira letra de cada palavra em maiúscula */
 }
+
 .description{
   font-size: 16px;
   color: #333333;
@@ -135,6 +141,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-transform: capitalize; /* Primeira letra de cada palavra em maiúscula */
 }
 footer img {
   border-radius: 50%;
