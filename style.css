@@ -13,10 +13,12 @@ body{
 }
 
 #page{
-  width: 1440px;
+  width: auto;
   padding: 24px;
   border-radius: 24px;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 main{
